@@ -1,0 +1,46 @@
+.card {
+	max-width: 300px;
+	width: 100%;
+	margin-bottom: 2.5em;
+}
+
+.card h5 {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+}
+
+.card img {
+	width: 100%;
+}
+
+.card ul {
+	text-align: center;
+}
+
+.card li {
+	display: inline;
+	margin: 0 0.25em;
+}
+
+/* Desktop and tablets (landscape) */
+@media (max-width: 1000px) {
+	.card {
+		max-width: 340px;
+	}
+}
+
+/* Tablets (portrait) and larger phones (landscape) */
+@media (max-width: 768px) {
+	.card {
+		max-width: 100%;
+		width: 80%;
+	}
+}
+
+/* Larger phones (portrait) and smaller phones (landscape) */
+@media (max-width: 567px) {
+	.card {
+		max-width: 100%;
+		width: 100%;
+	}
+}

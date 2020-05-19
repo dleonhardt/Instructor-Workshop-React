@@ -1,0 +1,92 @@
+/**
+ * app.css
+ *
+ * This is for more page-specific styles.
+ */
+
+main {
+	margin-top: 2.5rem !important;
+}
+
+main .portfolio, main .about, main .contact {
+	margin-bottom: 4.5rem;
+}
+
+header {
+	background-color: #2f83d6;
+	box-shadow: 0 0.25rem 0.75rem 0 rgba(0, 0, 0, 0.2);
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 64px;
+}
+
+nav h1 {
+	justify-content: flex-start;
+	font-size: 2.5rem;
+	padding: 0.5rem 0;
+	margin-bottom: 0;
+}
+
+nav button {
+	height: inherit;
+	padding: inherit;
+	color: #fff;
+	background-color: transparent;
+	text-align: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	letter-spacing: inherit;
+	text-transform: inherit;
+	border-radius: 0;
+	border: 0;
+}
+
+nav button:hover, nav button:focus {
+	color: #efefef;
+	text-decoration: underline;
+}
+
+nav h1 button:hover, nav h1 button:focus {
+	text-decoration: none;
+}
+
+nav ul {
+	justify-content: flex-end;
+}
+
+nav ul li {
+	display: inline-flex;
+    padding: 0.5rem 1rem;
+}
+
+nav a {
+	color: #fff;
+}
+
+nav h1 a:hover {
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #efefef;
+}
+
+footer {
+	color: #797979;
+	font-size: 1.25rem;
+	margin-top: 2.75rem !important;
+}
+
+footer a {
+	color: #797979;
+}
+
+footer p {
+	text-align: center;
+}

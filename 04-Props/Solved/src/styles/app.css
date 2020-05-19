@@ -1,0 +1,37 @@
+/**
+ * app.css
+ *
+ * This is for more page-specific styles.
+ */
+
+
+
+main {
+	margin-top: 2.5rem !important;
+}
+
+main.additional-padding {
+	margin-top: 8.5rem !important;
+	margin-bottom: 8.5rem !important;
+}
+
+main .portfolio {
+	margin-bottom: 2.5rem;
+}
+
+main .portfolio .projects {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+main .about, main .contact {
+	margin-bottom: 4.5rem;
+}
+
+/* Desktop and tablets (landscape) */
+@media (max-width: 1000px) {
+	main .portfolio .projects {
+		justify-content: space-around;
+	}
+}
