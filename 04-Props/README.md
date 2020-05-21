@@ -4,15 +4,15 @@ In this activity we are going to be using props to complete the portfolio applic
 
 ## Folder Setup & Installation
 
-If you have done this in a previous exercise, you may be able to skip some steps below such as the creation of the folder and 
+If you have done this in a previous exercise, you may be able to skip some steps below such as the creation of the `reactworkshop` folder.
 
 * Create a folder called `reactworkshop` separate from this repository that you can use for all of the activities throughout the lesson.
+
+* If this is the first exercise you are working on, copy the entire contents of the [Unsolved](Unsolved) folder and paste it into your `reactworkshop` folder. Otherwise, you just need to copy and paste the [Unsolved/src](Unsolved/src) folder.
 
 * Since these activities were all built using Create React App all we will need to do is `npm install` once and then copy and paste the `src` folders for each.
 
 	* NOTE: You do NOT need to run Create React App in order to do these exercises. All you will need to do is install the dependencies in the provided node package.json file.
-
-* Copy the entire `src` folder with [Unsolved/src](Unsolved/src) and paste it into your `reactworkshop` folder.
 
 * Install node packages by running the command `npm install` from within the [Unsolved/src](Unsolved/src) folder.
 
