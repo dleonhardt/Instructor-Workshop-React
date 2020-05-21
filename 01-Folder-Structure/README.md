@@ -14,7 +14,7 @@ If you have done this in a previous exercise, you may be able to skip some steps
 
 	* NOTE: You do NOT need to run Create React App in order to do these exercises. All you will need to do is install the dependencies in the provided node package.json file.
 
-* Install node packages by running the command `npm install` from within the [Unsolved/src](Unsolved/src) folder.
+* Install node packages by running the command `npm install` from within the [reactworkshop/src](reactworkshop/src) folder.
 
 * Stop the dev server if it is already running. Start the app in dev mode by running `npm start`.
 
