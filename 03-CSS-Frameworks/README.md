@@ -1,29 +1,42 @@
-## 1.3 CSS Frameworks
+# 1.4 Props
 
-In this activity we are going to install one of the popular CSS Frameworks and utilize their built-in components in an application.
+In this activity we are going to be using props to complete the portfolio application.
 
-# Instructions
+## Folder Setup & Installation
 
-* If you haven't done so already, create a folder called `reactworkshop` separate from this repository that you can use for all of the activities in this repo.
+If you have done this in a previous exercise, you may be able to skip some steps below such as the creation of the folder and 
+
+* Create a folder called `reactworkshop` separate from this repository that you can use for all of the activities throughout the lesson.
+
+* Since these activities were all built using Create React App all we will need to do is `npm install` once and then copy and paste the `src` folders for each.
+
+	* NOTE: You do NOT need to run Create React App in order to do these exercises. All you will need to do is install the dependencies in the provided node package.json file.
 
 * Copy the entire `src` folder with [Unsolved/src](Unsolved/src) and paste it into your `reactworkshop` folder.
 
-* Install node packages if you haven't done so already by running the command `npm install` from within the [Unsolved/src](Unsolved/src) folder.
+* Install node packages by running the command `npm install` from within the [Unsolved/src](Unsolved/src) folder.
 
 * Stop the dev server if it is already running. Start the app in dev mode by running `npm start`.
 
-* Using the starter code in the [Unsolved](Unsolved) folder, install one of the CSS Frameworks of your choice listed below.
+## Exercise
 
-	* [Material UI](https://material-ui.com/getting-started/installation/)
+* Open your browser to [localhost:3000](http://localhost:3000) and study the rendered application.
 
-	* [Reactstrap](https://reactstrap.github.io/)
+* You will notice that the application does render but none of the links are clickable
 
-	* [React-Foundation](https://github.com/digiaonline/react-foundation#install)
+* Now navigate to [Unsolved/src/App.js](Unsolved/src/App.js). You will notice there is a handleLink() function that hasn't been used just yet. You will also notice a number of commented sections labeled "TODO".
 
-	* [React-Materialize](https://github.com/react-materialize/react-materialize#install)
+* Add handleLink as a prop to the Header component in App.js. Then, go to the Header component [Unsolved/src/components/Header/Header.js](Unsolved/src/components/Header/Header.js) and add props as an argument and pass all the props to the Nav using the spread operator.
 
-* Follow the directions using the links provided to install the framework.
+* Next, go to the Nav component [Unsolved/src/components/Nav/Nav.js](Unsolved/src/components/Nav/Nav.js) and add props to the argument. Then, add each coresponding prop to each TODO section as specified.
 
-* Once you've done so, add at least one built-in component your application by using the framework's documentation.
+* Then, go back to [Unsolved/src/App.js](Unsolved/src/App.js) and add handleLink() as a prop to all Card components.
 
-	* Examples: Navbar, Card, Jumbotron, etc.
+* Then, go to the Card component [Unsolved/src/components/Card/Card.js](Unsolved/src/components/Card/Card.js) and do the same as you did with the Nav.
+
+
+## Hints
+
+* You can pass entire functions as props. You will most likely need to do this to get the links to work in this particular application
+
+* You can use the spread operator `{...props}` to not have to list all the props being passed in individually.
