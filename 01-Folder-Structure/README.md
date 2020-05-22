@@ -63,9 +63,9 @@ import "./styles/base.css";
 		* And then import them like so:
 
 			```
-			import Header "./components/Header";
-			import Nav "./components/Nav";
-			import Footer "./components/Footer";
+			import Header from "./components/Header";
+			import Nav from "./components/Nav";
+			import Footer from "./components/Footer";
 			```
 
 		* Alternatively, you can also name the files by the name of their component within the folder of the same name.
@@ -79,9 +79,9 @@ import "./styles/base.css";
 			* And then:
 
 			```
-			import Header from "./components/Header";
-			import Nav from "./components/Nav";
-			import Footer from "./components/Footer";
+			import Header from "./components/Header/Header";
+			import Nav from "./components/Nav/Nav";
+			import Footer from "./components/Footer/Footer";
 			```
 	
 	3. Or you can have the best of both worlds by doing the last method but adding a `index.js` file to the folder with the following code:
